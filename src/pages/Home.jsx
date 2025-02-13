@@ -32,8 +32,10 @@ function Home() {
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'center',
-    minHeight: '70vh',
-    height: '90vh',
+    minHeight: '50vh',
+    height: isMobile ? '80vh' : '',
+    marginTop: '40px',
+
   };
 
   const welcomeMessageStyle = {
